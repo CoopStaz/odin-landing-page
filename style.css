@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+footer,
+.top {
+    background-color: #1F2937;
+    color: #FFF;
+}
+
+/*Header Logo*/
+.home h3 {
+    font-size: 24px;
+    color: #f9FAF8;
+}
+
+/*This website is awesome*/
+.page-title h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9FAF8;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote #main {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+/*Header links & hero secondary*/
+.home li,
+.page-title p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
