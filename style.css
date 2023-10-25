@@ -1,11 +1,29 @@
-* {
-    margin: 0;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer,
 .top {
     background-color: #1F2937;
     color: #FFF;
+    padding: 18px;
+}
+
+.home li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-image {
+    display: flex;
+}
+
+footer {
+    text-align: center;
 }
 
 /*Header Logo*/
