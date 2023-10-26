@@ -15,6 +15,7 @@ footer,
 
 .home {
     display: flex;
+    margin-left: 100px;
 }
 
 .home li {
@@ -32,6 +33,7 @@ footer,
 
 footer {
     text-align: center;
+    padding: 24px;
 }
 
 /*Header Logo*/
@@ -70,9 +72,10 @@ button {
 }
 
 .bottom {
-    padding: 0px 52px 6px 52px;
+    padding: 30px 75px;
     border-radius: 12px;
     display: flex;
+    align-items: center;
 }
 
 #main {
@@ -83,10 +86,30 @@ button {
     display: flex;
 }
 
-.bottom button {
+.bottom button,
+.page-title button {
     height: 32px;
     width: 84px;
-    border-color: #FFF;
+    border: 1.5px solid #FFF;
     border-radius: 10px;
-    box-shadow: none;
+    margin-left: 46px;
+}
+
+.bottom h4,
+.bottom p {
+    margin: 0;
+}
+
+.page-title button {
+    margin: 0;
+}
+
+.page-title {
+    margin-right: 20%;
+    margin-left: 100px;
+}
+
+.top-middle h2 {
+    text-align: center;
+    font-size: 28px;
 }
