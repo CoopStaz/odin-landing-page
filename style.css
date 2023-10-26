@@ -1,11 +1,37 @@
-* {
-    margin: 0;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer,
 .top {
     background-color: #1F2937;
     color: #FFF;
+    padding: 18px;
+    width: 100%;
+}
+
+.home {
+    display: flex;
+}
+
+.home li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
 }
 
 /*Header Logo*/
@@ -35,4 +61,62 @@ footer,
 .page-title p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.bottom,
+button {
+    background-color: #3882F6;
+    color: #FFF;
+}
+
+.bottom {
+    padding: 30px 75px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+#main {
+    padding: 0px 256px;
+}
+
+.blocks {
+    display: flex;
+}
+
+.monkey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    border: 2px solid #5a9dfb;
+    border-radius: 20px;
+    /*Make the boxes a square*/
+}
+
+.bottom button,
+.page-title button {
+    height: 32px;
+    width: 84px;
+    border: 1.5px solid #FFF;
+    border-radius: 10px;
+    margin-left: 46px;
+}
+
+.bottom h4,
+.bottom p {
+    margin: 0;
+}
+
+.page-title button {
+    margin: 0;
+}
+
+.page-title {
+    margin-right: 20%;
+}
+
+.top-middle h2 {
+    text-align: center;
+    font-size: 28px;
 }
