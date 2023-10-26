@@ -1,3 +1,9 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -9,24 +15,28 @@ footer,
 .top {
     background-color: #1F2937;
     color: #FFF;
-    padding: 18px;
     width: 100%;
 }
 
 .home {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
 }
 
 .home li {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0px 10px;
     display: inline;
 }
 
 .header-image {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 500px;
 }
 
 footer {
@@ -36,7 +46,7 @@ footer {
 
 /*Header Logo*/
 .home h3 {
-    font-size: 24px;
+    font-size: 32px;
     color: #f9FAF8;
 }
 
@@ -48,7 +58,13 @@ footer {
 }
 
 .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+    padding: 40px;
+    min-height: 400px;
+    width: 100%;
 }
 
 .quote #main {
@@ -76,22 +92,27 @@ button {
     align-items: center;
 }
 
-#main {
-    padding: 0px 256px;
-}
-
 .blocks {
     display: flex;
+}
+
+.quote-align {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .monkey {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 0 20px;
-    border: 2px solid #5a9dfb;
     border-radius: 20px;
-    /*Make the boxes a square*/
+}
+
+.monkey p {
+    font-size: 20px;
 }
 
 .bottom button,
@@ -100,7 +121,6 @@ button {
     width: 84px;
     border: 1.5px solid #FFF;
     border-radius: 10px;
-    margin-left: 46px;
 }
 
 .bottom h4,
@@ -109,14 +129,49 @@ button {
 }
 
 .page-title button {
-    margin: 0;
+    margin-top: 10px;
 }
 
 .page-title {
-    margin-right: 20%;
+    margin-right: 90px;
+    margin-left: 80px;
+    width: 750px;
 }
 
 .top-middle h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 50px;
+}
+
+.smile {
+    margin-left: 280px;
+}
+
+.bottom button {
+    margin-left: 46px;
+}
+
+#author {
+    text-align: right;
+}
+
+.page-title button:hover,
+.bottom button:hover {
+    background-color: #fff;
+    color: #5a9dfb;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5a9dfb;
+}
+
+.home a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.home a:hover,
+footer a:hover {
+    color: #E5E7EB;
 }
